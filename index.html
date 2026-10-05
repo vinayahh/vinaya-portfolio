@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinaya Sathish — Portfolio | AI & Data Science • UI/UX Designer • Developer</title>
+  <meta name="description" content="Personal portfolio of Vinaya Sathish — AI & Data Science Student, UI/UX Designer, and Developer based in Kerala, India. Featuring Medière, UPKEEP, and Bon Voyage.">
+
+  <!-- Favicon using actual uploaded logo asset -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+  <!-- Fonts: Cormorant Garamond (Editorial Serif) & Plus Jakarta Sans (Modern Sans-Serif) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Three.js for 3D Hero Geometric Element -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+
+  <!-- ==========================================================================
+       SPLASH / OPENING SCREEN (EXACT UPLOADED LOGO IMAGE ONLY, LARGER & CENTERED)
+       ========================================================================== -->
+  <div id="splash-screen" class="splash-screen">
+    <div class="splash-container">
+      <img src="assets/images/vs_logo_transparent.png" alt="Vinaya Sathish Monogram Brand Mark" class="splash-logo">
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       NAVIGATION HEADER
+       ========================================================================== -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Vinaya Sathish Home">
+        <img src="assets/images/vs_logo_transparent.png" alt="VS Monogram Logo" width="42" height="42" style="object-fit: contain;">
+        <span class="brand-name">VINAYA SATHISH</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link">HOME</a></li>
+          <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+          <li><a href="#about" class="nav-link">ABOUT</a></li>
+          <li><a href="#skills" class="nav-link">SKILLS</a></li>
+          <li><a href="#experience" class="nav-link">EXPERIENCE</a></li>
+          <li><a href="#contact" class="nav-link">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <div class="mobile-nav-toggle" aria-label="Toggle Navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       01 — HERO SECTION (LUXURY EDITORIAL COMPOSITION & GEOMETRIC LOGO PANEL)
+       ========================================================================== -->
+  <section id="hero" class="hero-section">
+    <!-- 3D Geometric Canvas -->
+    <div id="hero-canvas" class="hero-canvas-container"></div>
+
+    <div class="hero-content">
+      <!-- Top Small Label: PORTFOLIO -->
+      <div class="hero-header-label">
+        <span class="hero-micro-tag">PORTFOLIO</span>
+        <span>KERALA, INDIA &bull; 2026</span>
+      </div>
+
+      <!-- Main Dominant Hero Heading: VINAYA SATHISH -->
+      <h1 class="hero-headline-name">VINAYA SATHISH</h1>
+
+      <!-- Subtitle Hierarchy -->
+      <div class="hero-subhead-grid">
+        <div class="hero-name-block">
+          <div class="hero-roles">
+            <span>AI &amp; Data Science Student</span>
+            <span>UI/UX Designer</span>
+            <span>Developer</span>
+          </div>
+        </div>
+
+        <div class="hero-meta-block">
+          <p>B.Tech in AI &amp; Data Science</p>
+          <p>Amal Jyothi College of Engineering</p>
+          <p>Kanjirappally, Kottayam</p>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        <div class="scroll-line"></div>
+        <span>SCROLL TO EXPLORE</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       02 — CURATED PROJECTS INDEX (5 TOTAL AUTHORITATIVE IMAGES)
+       ========================================================================== -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <div class="projects-header">
+        <div>
+          <div class="eyebrow">CURATED PORTFOLIO</div>
+          <h2 class="section-title">SELECTED WORKS</h2>
+        </div>
+        <div class="serif" style="font-size: 1.2rem; color: var(--accent-gold);">01 &mdash; 03</div>
+      </div>
+
+      <!-- Clean Editorial Project Index with Genuine Supplied Image Previews -->
+      <div class="project-editorial-index">
+
+        <!-- PROJECT 01 — MEDIÈRE -->
+        <article class="project-index-card" onclick="window.location.href='mediere.html'">
+          <div class="project-index-num">01</div>
+          <div class="project-index-visual">
+            <img src="assets/images/mediere_img1.png" alt="Medière Interface Preview" loading="lazy">
+          </div>
+          <div class="project-index-content">
+            <h3 class="project-index-title">MEDIÈRE</h3>
+            <p class="project-index-desc">Smart medicine availability &amp; supplier recommendation platform helping pharmacies manage inventory, track expiry dates, and optimize restocking decisions.</p>
+            <div class="project-index-category">AI &bull; DATA &bull; UI/UX</div>
+          </div>
+          <a href="mediere.html" class="project-index-cta">
+            VIEW CASE STUDY <span class="arrow">&rarr;</span>
+          </a>
+        </article>
+
+        <!-- PROJECT 02 — UPKEEP -->
+        <article class="project-index-card" onclick="window.location.href='upkeep.html'">
+          <div class="project-index-num">02</div>
+          <div class="project-index-visual">
+            <img src="assets/images/upkeep_img1.png" alt="UPKEEP Interface Preview" loading="lazy">
+          </div>
+          <div class="project-index-content">
+            <h3 class="project-index-title">UPKEEP</h3>
+            <p class="project-index-desc">Modern campus maintenance and issue-management platform streamlining issue reporting, staff assignments, resolution tracking, and administrative analytics.</p>
+            <div class="project-index-category">PRODUCT &bull; UI/UX &bull; WEB</div>
+          </div>
+          <a href="upkeep.html" class="project-index-cta">
+            VIEW CASE STUDY <span class="arrow">&rarr;</span>
+          </a>
+        </article>
+
+        <!-- PROJECT 03 — BON VOYAGE -->
+        <article class="project-index-card" onclick="window.location.href='bonvoyage.html'">
+          <div class="project-index-num">03</div>
+          <div class="project-index-visual">
+            <img src="assets/images/bonvoyage_img1.jpg" alt="Bon Voyage Interface Preview" loading="lazy">
+          </div>
+          <div class="project-index-content">
+            <h3 class="project-index-title">BON VOYAGE</h3>
+            <p class="project-index-desc">AI-based personalised travel planning experience synthesizing itinerary generation, destination discovery, and travel tracking into one unified product design.</p>
+            <div class="project-index-category">TRAVEL &bull; UI/UX &bull; MOBILE</div>
+          </div>
+          <a href="bonvoyage.html" class="project-index-cta">
+            VIEW CASE STUDY <span class="arrow">&rarr;</span>
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       03 — ABOUT & EDUCATION
+       ========================================================================== -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="about-grid">
+        <div>
+          <div class="eyebrow">BIOGRAPHY</div>
+          <h2 class="section-title">ABOUT ME</h2>
+          <div class="about-intro-text">
+            Vinaya Sathish is an AI &amp; Data Science student at Amal Jyothi College of Engineering, Kanjirappally, Kottayam, currently pursuing a B.Tech in AI &amp; Data Science.
+          </div>
+          <div class="about-body-text">
+            <p>Driven by curiosity at the intersection of artificial intelligence, data science, UI/UX design, and digital product development, she focuses on transforming complex data into intuitive, human-centered web experiences.</p>
+            <p>Her approach balances mathematical rigor with refined aesthetic sensibilities, crafting products that are as functional as they are elegant.</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="eyebrow">ACADEMIC JOURNEY</div>
+          <h2 class="section-title">EDUCATION</h2>
+          
+          <div class="education-card">
+            <h3 class="edu-institution">AMAL JYOTHI COLLEGE OF ENGINEERING</h3>
+            <div class="edu-location">Kanjirappally, Kottayam &bull; Kerala, India</div>
+            <div class="edu-degree">B.Tech in AI &amp; Data Science</div>
+            <div class="edu-semester">Second Year &bull; Semester 3</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       04 — SKILLS
+       ========================================================================== -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <div class="eyebrow">CORE COMPETENCIES</div>
+      <h2 class="section-title">SKILLS</h2>
+
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3 class="skill-category-title">Technical Skills</h3>
+          <div class="skills-list">
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">HTML</span>
+            <span class="skill-pill">Java</span>
+            <span class="skill-pill">Programming</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-category-title">Design Skills</h3>
+          <div class="skills-list">
+            <span class="skill-pill">UI Design</span>
+            <span class="skill-pill">Figma</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       05 & 06 — EXPERIENCE & ACHIEVEMENTS
+       ========================================================================== -->
+  <section id="experience" class="exp-ach-section">
+    <div class="container">
+      <div class="two-col-grid">
+        
+        <!-- EXPERIENCE -->
+        <div class="experience-box">
+          <div class="eyebrow">CAREER PATH</div>
+          <h2 class="section-title">EXPERIENCE</h2>
+          
+          <div class="editorial-card">
+            <h3 class="exp-company">FLYRANK AI</h3>
+            <div class="exp-role">AI Intern / UI/UX Design Intern</div>
+          </div>
+        </div>
+
+        <!-- ACHIEVEMENTS -->
+        <div class="achievements-box">
+          <div class="eyebrow">RECOGNITION</div>
+          <h2 class="section-title">ACHIEVEMENTS</h2>
+          
+          <ul class="achievements-list">
+            <li class="achievement-item">
+              <span class="achievement-bullet"></span>
+              <span>Participated in multiple hackathons</span>
+            </li>
+            <li class="achievement-item">
+              <span class="achievement-bullet"></span>
+              <span>Earned certificates</span>
+            </li>
+            <li class="achievement-item">
+              <span class="achievement-bullet"></span>
+              <span>Participated in workshops</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       07 — CONTACT
+       ========================================================================== -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info-block">
+          <div>
+            <div class="eyebrow">GET IN TOUCH</div>
+            <h2 class="section-title">LET'S CONNECT</h2>
+            <p style="color: var(--text-muted); font-size: 1.05rem; line-height: 1.7; max-width: 440px;">
+              Have a project, internship opportunity, or collaboration in mind? Feel free to reach out directly.
+            </p>
+          </div>
+
+          <div class="contact-direct-links">
+            <div>
+              <div class="contact-item-label">IDENTITY</div>
+              <div style="font-size: 1.1rem; font-weight: 600;">VINAYA SATHISH</div>
+              <div style="font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em; margin-top: 0.25rem;">
+                AI &amp; Data Science Student &bull; UI/UX Designer &bull; Developer<br>Kerala, India
+              </div>
+            </div>
+
+            <div>
+              <div class="contact-item-label">EMAIL</div>
+              <a href="mailto:vinaya1020@gmail.com" class="contact-item-value">vinaya1020@gmail.com</a>
+            </div>
+
+            <div>
+              <div class="contact-item-label">LINKEDIN</div>
+              <a href="https://www.linkedin.com/in/vinayasathish" target="_blank" rel="noopener noreferrer" class="contact-item-value" style="font-size: 1.3rem;">
+                linkedin.com/in/vinayasathish &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <form id="contact-form" class="contact-form">
+            <div class="form-group">
+              <label class="form-label" for="name">Your Name</label>
+              <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Eleanor Vance" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="email">Your Email</label>
+              <input type="email" id="email" name="email" class="form-input" placeholder="e.g. eleanor@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="message">Message</label>
+              <textarea id="message" name="message" class="form-textarea" placeholder="Write your message here..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary">
+              SEND MESSAGE &rarr;
+            </button>
+
+            <div id="form-feedback" class="form-feedback"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       08 — FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="assets/images/vs_logo_transparent.png" alt="VS Monogram Dark Logo" width="48" height="48" style="object-fit: contain;">
+            <span class="footer-name">VINAYA SATHISH</span>
+          </div>
+          <div class="footer-taglines">
+            <span>AI &amp; DATA SCIENCE</span>
+            <span>UI/UX DESIGN</span>
+            <span>DEVELOPMENT</span>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-col-title">NAVIGATION</div>
+          <ul class="footer-links">
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">CONNECT</div>
+          <ul class="footer-links">
+            <li><a href="mailto:vinaya1020@gmail.com">vinaya1020@gmail.com</a></li>
+            <li><a href="https://www.linkedin.com/in/vinayasathish" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 VINAYA SATHISH. ALL RIGHTS RESERVED.</div>
+        <div>KERALA, INDIA &bull; PERSONAL PORTFOLIO</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
